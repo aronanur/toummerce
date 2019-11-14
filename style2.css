@@ -1,0 +1,29 @@
+.info_pemesanan{
+    width:800px;
+    margin-left:300px;
+    position: fixed;
+    text-align:justify;
+}
+
+.info, .person{
+    border-bottom: 1px solid #03a8f45e;
+    margin-top:10px ;
+    outline: 0;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    width:200px;
+}
+
+.booking ul{
+    display:inline-block;
+    list-style-type: none;
+}
+
+.contact ul{
+    display:inline-block;
+    list-style-type: none;
+}
+#data{
+    margin-left: 45px;
+}

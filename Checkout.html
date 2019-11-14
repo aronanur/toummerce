@@ -1,0 +1,98 @@
+
+<head>
+    <title>Checkout</title>
+    <link href="./style.css" type="text/css" rel="stylesheet"
+</head>
+<body>
+    <header>
+        <ul>
+
+        </ul>
+        <div class="banner">
+            <h1 id="tokyo">Tour Tokyo Jepang (Winter)</h1>
+        </div>
+    </header>
+    <main>
+        <div class="info">
+            <h2 id="pesanan">Rincian Pesanan</h2>
+            <h2 id="hari">5D/3N Tokyo Tour</h2>
+            <section class="tanggal">
+                <ul>
+                    <li><img src="./calendar.png" width="20px" height="20px",id="logo1"><span>Senin,6 Januari 2020</span></li>
+                    <li></li><img src="./calendar.png" width="20px" height="20px",id="logo1"></li><span>Jumat,10 Januari 2020</span></li>
+                </ul>  
+                
+            </section>
+            <section class="orang">
+                <ul>
+                    <li><img src="./user.png" width="20px" height="20px"><span>1 Orang(Dewasa)</span> </li>
+                </ul>
+            </section>
+            <h2 id="rincian">Rincian Harga</h2>
+            <section class="harga">
+                <ul>
+                    <li>Total <span id="spasi">IDR15,800,000</span></li>
+                </ul>
+            </section>
+
+        </div>
+
+       <form action="contact.html" method=Post>
+            <div class="pemesanan">
+                <div class="tour">
+                    <h2>Tour Member</h2>
+                </div>
+                <section class="dewasa">
+                    <label for="dewasa">Dewasa:</label><br>
+                    <input type="text" name="Dewasa" id="Dewasabox">
+                </section>
+                <br>
+                <section class="anak">
+                    <label for="anak">Anak-Anak:</label><br>
+                    <input type="text" name="anak" id="anakbox">
+                </section>
+                <br>
+                <div class="kontak">
+                    <h2 >Detail Kontak</h2>
+                    <section class="title">
+                        <label for="title">Title</label><br>
+                        <select id="titlebox" name="title">
+                            <option value="mr">Mr.</option>
+                            <option value="mrs">Mrs.</option>
+                            <option value="ms">Ms.</option>
+                        </select>
+                    </section>
+                    <section class="fname">
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" name="fname" id="fnamebox">
+                    </section>
+                    <section class="lname">
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" name="lname" id="lnamebox">
+                    </section>
+                    <section class="email">
+                        <label for="email">Email:</label><br>
+                        <input type="text" name="email" id="emailbox">
+                    </section>
+                    <section class="phone">
+                        <label for="phone">Phone:</label><br>
+                        <input type="text" name="phone" id="phonebox" required pattern="[0-9]{10,12}">
+                    </section>
+                    <section class="ktp">
+                        <label for="ktp">No.KTP:</label><br>
+                        <input type="text" name="ktp" id="ktpbox" required pattern="[0-9]{16}">
+                    </section>
+                    <section class="alamat">
+                        <label for="alamat">Alamat:</label><br>
+                        <input type="text" name="alamat" id="alamatbox" >
+                    </section>
+                    <br>
+                    <section class="submit">
+                        <input type="submit" name="Next" class="submitbox">
+                    </section>
+                </div>
+            </div>
+       </form>
+    </main>
+</body>
+
