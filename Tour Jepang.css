@@ -1,3 +1,22 @@
+*{
+    margin: 0 3%;
+}
+
+#tokyo{
+    display: block;
+    background-image: url("image/jepang.jpg");
+    margin: auto;
+    width: 50%;
+    height: 450px;
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+
+.caption{
+    padding-top: 25%;
+
+}
 ul {
     list-style-image: url("https://image.flaticon.com/icons/svg/484/484165.svg");
 }
@@ -43,4 +62,30 @@ th{
 tr td{
     font-size: 20px;
     border: 1px solid #2E7890;
+}
+
+/* .tombol {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+
+} */
+.button-wraper {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+
+}
+
+.button-wraper a{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    background-color: teal;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    border-radius: 3px;
 }
