@@ -1,0 +1,46 @@
+ul {
+    list-style-image: url("https://image.flaticon.com/icons/svg/484/484165.svg");
+}
+
+.tourpoint li .waktu {list-style: none;
+}
+
+
+h2:before {
+    content: "";
+    display: block;
+    background: url("https://image.flaticon.com/icons/svg/0/308.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+    }
+
+table {
+    text-align: center;
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 35%;
+}
+
+thead th{
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 15px;
+    color: #2E7890;
+    background-color: white;
+}
+
+th{
+    border: 1px solid #2E7890;
+  }
+
+tr td{
+    font-size: 20px;
+    border: 1px solid #2E7890;
+}
