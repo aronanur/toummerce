@@ -5,6 +5,7 @@
 #tokyo{
     display: block;
     background-image: url("https://live.staticflickr.com/7830/47032104022_32556c9c7d_b.jpg");
+    border-radius: 100px;
     margin: auto;
     width: 100%;
     height: auto;
@@ -12,6 +13,7 @@
     font-size: larger;
     text-align: center;
     opacity: 0.80;
+    box-shadow: 15px 20px #b0caf3;
 }
 
 .img1 {
@@ -32,6 +34,8 @@ ul {
     width: 100%;
     align: center;
     margin: auto;
+    border-radius: 15px;
+    box-shadow: 8px 10px #b0caf3;
 }
 
 .tourpoint li .waktu {list-style: none;
@@ -42,6 +46,8 @@ ul {
     width: 100%;
     align: center;
     margin: auto;
+    border-radius: 15px;
+    box-shadow: 8px 10px #b0caf3;
 }
 
 .tujuan {
@@ -49,6 +55,17 @@ ul {
     width: 100%;
     align: center;
     margin: auto;
+    border-radius: 15px;
+    box-shadow: 8px 10px #b0caf3;
+}
+
+.harga {
+    background-color: #5392f9;
+    width: 100%;
+    align: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 8px 10px #b0caf3;
 }
 
 
@@ -70,7 +87,8 @@ table {
     margin: 20px auto;
     overflow-y: scroll;
     position: static;
-    width: 35%;
+    width: 60%;
+    table-layout: fixed;
 }
 
 thead th{
@@ -111,19 +129,19 @@ tr td{
 
 .button-wraper a{
     display: inline-block;
-    width: 100px;
-    height: 35px;
+    width: 170px;
+    height: 70px;
     background-color: #5392f9;
     text-decoration: none;
     text-align: center;
-    line-height: 35px;
+    line-height: 70px;
     color: white;
     border-radius: 3px;
+    font-size: 25px;
 }
 
 #destinasi {text-align: center;
     height: 500px;
-    
 }
 
 .destinasiunik {
@@ -141,6 +159,10 @@ tr td{
 
 body {
     line-height: 2;
-
 }
 
+.hargaharga {
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+}
