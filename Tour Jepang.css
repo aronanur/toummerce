@@ -14,6 +14,11 @@
     opacity: 0.80;
 }
 
+.img1 {
+    float: right;
+    padding-top: 125px;
+  }
+
 .caption{
     padding-top: 250px;
 
@@ -23,7 +28,7 @@ ul {
 }
 
 #tourpoint .tour{
-    background-color:teal;
+    background-color: #5392f9;
     width: 100%;
     align: center;
     margin: auto;
@@ -33,14 +38,14 @@ ul {
 }
 
 #itinerary .itinerary {
-    background-color:teal;
+    background-color: #5392f9;
     width: 100%;
     align: center;
     margin: auto;
 }
 
 .tujuan {
-    background-color:teal;
+    background-color: #5392f9;
     width: 100%;
     align: center;
     margin: auto;
@@ -74,17 +79,19 @@ thead th{
     text-transform: uppercase;
     font-size: 25px;
     padding: 15px;
-    color: #2E7890;
+    color: #5392f9;
     background-color: white;
+    width: max-content;
 }
 
 th{
-    border: 1px solid #2E7890;
+    border: 1px solid #5392f9;
   }
 
 tr td{
     font-size: 20px;
-    border: 1px solid #2E7890;
+    border: 1px solid #5392f9;
+    background-color: white;
 }
 
 /* .tombol {
@@ -106,7 +113,7 @@ tr td{
     display: inline-block;
     width: 100px;
     height: 35px;
-    background-color: teal;
+    background-color: #5392f9;
     text-decoration: none;
     text-align: center;
     line-height: 35px;
