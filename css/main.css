@@ -1,0 +1,267 @@
+* {
+    margin : 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.left-navbar {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+}
+
+.left-navbar p {
+    color: #5392f9;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 60px;
+    padding: 0 20px;
+    letter-spacing: 1px;
+}
+
+.right-navbar {
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+
+/* #62C1B3 */
+.right-navbar a {
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 30px;
+    margin: 0 30%;
+    background-color: #5392f9;
+    margin-top: 10px;
+    border-radius: 3px;
+    border : 1px solid #5393f985;
+    transition: background-color 0.5s;
+}
+
+.right-navbar a:hover {
+    background-color: #a4ccc6;
+}
+
+.right-navbar a p {
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    /* text-align: center; */
+    padding-left: 12px;
+}
+
+main {
+    width: 100%;
+}
+
+.about {
+    width: 100%;
+    height: 300px;
+    background: url('../image/download.jpeg');
+    background-size: cover;
+    /* background-color: red; */
+    position: relative;
+    top: -1px;
+    z-index: -10px;
+}
+
+.description-wrapper {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+
+.description-wrapper h1 {
+    font-size: 42px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 700;
+    /* text-align: center; */
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+.description-wrapper p {
+    /* display: block; */
+    padding-left: 10%;
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.caption {
+    text-align: center;
+    font-size: 24px;
+    color : #5392f9;
+}
+
+.form-container {
+    display: block;
+    width: 80%;
+    height: 70px;
+    margin-left: 10%;
+    border: 1px solid #5393f9c2;
+    background-color: #5393f9ef;
+    border-radius: 3px;
+}
+
+.form-wrapper {
+    display: inline-block;
+    max-width: 40%;
+    height : 80%;
+    margin-left: 2%;
+    margin-top: 7px;
+    /* background-color: red; */
+}
+
+.search {
+    width: 40%;
+    float: left;
+}
+
+.date{
+    width: 18%;
+    float: left;
+}
+
+.button {
+    width: 14%;
+    float: left;
+}
+
+.form-wrapper .form {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border: none;
+    /* color: black; */
+    font-size: 20px;
+    padding-left : 10px;
+    cursor: pointer;
+    /* padding: 5px; */
+}
+
+.btn {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    transition: background-color 0.5s;
+    /* border: 1px solid #0770cd; */
+}
+
+.btn:hover {
+    background-color: #454e63;
+}
+
+.listing-container {
+    display: block;
+    width: 80%;
+    min-height: 275px;
+    margin-left: 10%;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.listing-container .card {
+    display: inline-block;
+    float: left;
+    width: 49%;
+    height: 120px;
+    margin-left: 0.7%;
+    /* padding-top: 10px; */
+    margin-top: 1%;
+    background-color: white;
+}
+
+.card-image {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-description {
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.card-description h4 {
+    font-size: 16px;
+    color: #5392f9;
+    padding: 10px 10px;
+}
+
+.card-description ul{
+    list-style: none;
+}
+
+.card-description ul li {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.card-button {
+    float: left;
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.card-button ul {
+    list-style: none;
+    padding: 25% 15px;
+}
+
+.card-button ul li {
+    padding: 5px;
+}
+
+.card-button ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.btn-cart {
+    background-color: tomato;
+}
+
+.btn-checkout {
+    background-color: #5392f9;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #5392f9;
+}
+
+footer h4 {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
