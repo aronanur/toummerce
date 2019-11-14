@@ -1,0 +1,146 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.banner{
+  background: url("./Optimized-jepang.jpg");
+  text-align:center;
+  height:300px;
+  width:100%
+}
+ #tokyo{
+  padding-top: 10%;
+  color:white;
+}
+
+
+.title,.fname,.lname,.email, .phone,.ktp,.alamat,.dewasa,.anak{
+  display: inline-block;
+  margin: 30px 10px 10px 10px;
+}
+
+#fnamebox, #lnamebox, #titlebox, #emailbox, #phonebox, #alamatbox, #ktpbox
+,#dewasabox, #anakbox{
+  border-bottom: 1px solid #03a8f45e;
+  margin-top:10px ;
+  outline: 0;
+  border-top: none;
+  border-left:none;
+  border-right:none;
+}
+
+
+ul{
+  list-style-type: none;
+}
+#logo1{
+  margin-left: 0px;
+}
+li{
+  margin-top:20px;
+}
+span{
+  padding-left:10px;
+}
+#spasi{
+  padding-left:100px;
+}
+
+#hari{
+  background-color: yellow;
+  padding:10px;
+  margin-top:0px;
+}
+#pesanan{
+  padding:10px;
+  padding-top:0px;
+  margin-bottom: 0px;
+  padding-left:10px;
+  margin-top:10px;
+  
+}
+#rincian{
+  padding:10px;
+  margin-bottom: 0px;
+  border-left:none;
+  border-right:none;
+  border-bottom:1px solid #e6e6e6;
+  border-top:1px solid #e6e6e6;
+  margin-top:20px;
+}
+.info{
+  width:300px;
+  height:390px;
+  background-color:white;
+  float:right;
+  border: 1px solid #e6e6e6;
+  margin-right:250px;
+}
+.pemesanan{
+  margin-left:300px;
+  margin-top:10px;
+}
+
+.submitbox{
+  margin: 40px 10px 10px 10px;
+  width: 100px;
+  height: 50px;
+  float:left;
+  background-color: #0046a4;
+  color:white;
+  border:none;
+  border-radius: 10%;
+}
+
+#emailbox,#ktpbox{
+  width: 229px;
+}
+
+.kontak{
+  width:500px;
+  height:100%;
+  background-color:white;
+}
+
+.tour{
+  width:500px;
+  height:50px;
+  background-color:white;
+}
+
+.kontak h2, .tour h2{
+  background-color: #5392F9;
+  border-bottom: 1px solid black;
+}
+
+/* contact.html */
+.info_pemesanan{
+  width:800px;
+  margin-left:300px;
+  position: fixed;
+  text-align:justify;
+}
+
+.info, .person{
+  border-bottom: 1px solid #03a8f45e;
+  margin-top:10px ;
+  outline: 0;
+  border-top: none;
+  border-left:none;
+  border-right:none;
+  width:200px;
+}
+
+.booking ul{
+  display:inline-block;
+  list-style-type: none;
+}
+
+.contact ul{
+  display:inline-block;
+  list-style-type: none;
+}
+#data{
+  margin-left: 45px;
+}
