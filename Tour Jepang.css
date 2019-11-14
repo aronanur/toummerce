@@ -4,35 +4,58 @@
 
 #tokyo{
     display: block;
-    background-image: url("image/jepang.jpg");
+    background-image: url("https://live.staticflickr.com/7830/47032104022_32556c9c7d_b.jpg");
     margin: auto;
-    width: 50%;
-    height: 450px;
+    width: 100%;
+    height: auto;
     color: white;
     font-size: larger;
     text-align: center;
+    opacity: 0.80;
 }
 
 .caption{
-    padding-top: 25%;
+    padding-top: 250px;
 
 }
 ul {
     list-style-image: url("https://image.flaticon.com/icons/svg/484/484165.svg");
 }
 
+#tourpoint .tour{
+    background-color:teal;
+    width: 100%;
+    align: center;
+    margin: auto;
+}
+
 .tourpoint li .waktu {list-style: none;
+}
+
+#itinerary .itinerary {
+    background-color:teal;
+    width: 100%;
+    align: center;
+    margin: auto;
+}
+
+.tujuan {
+    background-color:teal;
+    width: 100%;
+    align: center;
+    margin: auto;
 }
 
 
 h2:before {
     content: "";
-    display: block;
+    display: inline-block;
     background: url("https://image.flaticon.com/icons/svg/0/308.svg") no-repeat;
     width: 20px;
     height: 20px;
     float: left;
     margin: 0 6px 0 0;
+    line-height: 2;
     }
 
 table {
@@ -75,6 +98,7 @@ tr td{
     width: 100%;
     height: 100px;
     margin-top: 10px;
+    text-align: center;
 
 }
 
@@ -89,3 +113,27 @@ tr td{
     color: white;
     border-radius: 3px;
 }
+
+#destinasi {text-align: center;
+    height: 500px;
+    
+}
+
+.destinasiunik {
+    display: inline-block;
+    width: 200px;
+    padding: 65px;
+    margin-right: 0;
+    float: left;
+    height: 550px;
+}
+
+.destinasiunik h3 {
+    font-size: 15px;
+}
+
+body {
+    line-height: 2;
+
+}
+
