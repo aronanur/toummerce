@@ -4,35 +4,80 @@
 
 #tokyo{
     display: block;
-    background-image: url("image/jepang.jpg");
+    background-image: url("https://live.staticflickr.com/7830/47032104022_32556c9c7d_b.jpg");
+    border-radius: 100px;
     margin: auto;
-    width: 50%;
-    height: 450px;
+    width: 100%;
+    height: auto;
     color: white;
     font-size: larger;
     text-align: center;
+    opacity: 0.80;
+    box-shadow: 15px 20px #b0caf3;
 }
 
+.img1 {
+    float: right;
+    padding-top: 125px;
+  }
+
 .caption{
-    padding-top: 25%;
+    padding-top: 250px;
 
 }
 ul {
     list-style-image: url("https://image.flaticon.com/icons/svg/484/484165.svg");
 }
 
+#tourpoint .tour{
+    background-color: #5392f9;
+    width: 100%;
+    align: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 8px 10px #b0caf3;
+}
+
 .tourpoint li .waktu {list-style: none;
+}
+
+#itinerary .itinerary {
+    background-color: #5392f9;
+    width: 100%;
+    align: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 8px 10px #b0caf3;
+}
+
+.tujuan {
+    background-color: #5392f9;
+    width: 100%;
+    align: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 8px 10px #b0caf3;
+}
+
+.harga {
+    background-color: #5392f9;
+    width: 100%;
+    align: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 8px 10px #b0caf3;
 }
 
 
 h2:before {
     content: "";
-    display: block;
+    display: inline-block;
     background: url("https://image.flaticon.com/icons/svg/0/308.svg") no-repeat;
     width: 20px;
     height: 20px;
     float: left;
     margin: 0 6px 0 0;
+    line-height: 2;
     }
 
 table {
@@ -42,7 +87,8 @@ table {
     margin: 20px auto;
     overflow-y: scroll;
     position: static;
-    width: 35%;
+    width: 60%;
+    table-layout: fixed;
 }
 
 thead th{
@@ -51,17 +97,19 @@ thead th{
     text-transform: uppercase;
     font-size: 25px;
     padding: 15px;
-    color: #2E7890;
+    color: #5392f9;
     background-color: white;
+    width: max-content;
 }
 
 th{
-    border: 1px solid #2E7890;
+    border: 1px solid #5392f9;
   }
 
 tr td{
     font-size: 20px;
-    border: 1px solid #2E7890;
+    border: 1px solid #5392f9;
+    background-color: white;
 }
 
 /* .tombol {
@@ -75,17 +123,48 @@ tr td{
     width: 100%;
     height: 100px;
     margin-top: 10px;
+    text-align: center;
 
 }
 
 .button-wraper a{
     display: inline-block;
-    width: 100px;
-    height: 35px;
-    background-color: teal;
+    width: 170px;
+    height: 70px;
+    background-color: #5392f9;
     text-decoration: none;
     text-align: center;
-    line-height: 35px;
+    line-height: 70px;
     color: white;
     border-radius: 3px;
+    font-size: 25px;
+}
+
+#destinasi {text-align: center;
+    height: 500px;
+}
+
+.destinasiunik {
+    display: inline-block;
+    width: 200px;
+    padding: 65px;
+    margin-right: 0;
+    float: left;
+    height: 550px;
+}
+
+.destinasiunik h3 {
+    font-size: 15px;
+}
+
+body {
+    line-height: 2;
+    font-family: 'Ubuntu', sans-serif;
+    ;
+}
+
+.hargaharga {
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
 }
