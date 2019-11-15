@@ -1,39 +1,69 @@
 <html>
     <head>
-        <title>keranjang</title>
+        <title>Keranjang</title>
         <link href="./css/main.css" type="text/css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     </head>
     <body>
         <!-- tempat navigator -->
         <header>
-
+            <nav>
+                <section class="left-navbar">
+                <a href="index.html"><p><i class="fa fa-map" aria-hidden="true"></i> Toummerce</p></a>
+                </section>
+                <section class="right-navbar">
+                    <a href="keranjang.html">
+                        <p><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
+                    </a>
+                </section>
+            </nav>
         </header>
         <main>
-            <section class="listing-container">
-                    <div class="card">
-                        <section class="card-image">
-                            <img src="image/jepang.jpg">
-                        </section>
-                        <section class="card-description">
-                            <h4>Tour Tokyo Jepang 2019 (Winter)</h4>
-                            <ul>
-                                <li><i class="fa fa-calendar" aria-hidden="true"></i> &nbsp;Senin, 6 Januari 2019</li>
-                                <li><i class="fa fa-calendar-o" aria-hidden="true"></i> &nbsp;Jum'at, 6 Januari 2019</li>
-                            </ul>
-                            <h4>Rp. 15.800.00 / orang</h4>
-                        </section>
-                        <section class="card-button">
-                            <ul>
-                                <li><a class="btn-checkout" href="./Checkout.html">Checkout</a></li>
-                            </ul>
-                        </section>
-                    </div>
+            <section class="page-title">
+                <h2><i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp;Keranjang Travelling Kamu</h2>
+            </section>
+            <div class="list-cart-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama Paket Tour</th>
+                            <th>Berangkat</th>
+                            <th>Pulang</th>
+                            <th>Harga</th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Tour Tokyo Jepang 2019 (Winter)</td>
+                            <td>Senin, 6 Januari 2020</td>
+                            <td>Jum'at, 10 Januari 2020</td>
+                            <td>Rp. 15.800.00 / Orang</td>
+                            <td><a class="button-checkout" href="Checkout.html">Checkout</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <section class="cart-attention">
+                        <p>Peringatan : </p>
+                        <ol>
+                            <li>Sebelum checkout paket travelling, pastikan terlebih dahulu paket sudah benar</li>
+                            <li>Jika masih ragu dengan tujuan tour lebih baik pertimbangkan lagi</li>
+                            <li>Jika sudah sesuai, silahkan nikmati tour bersama <strong>Toummerce</strong></li>
+                        </ol>
+                </section>
+            </div>
+            <section class="cart-action">
+                <ul>
+                    <li><a class="btn-groove" href="Checkout.html">Checkout All</a></li>
+                    <li><a class="btn-tomato "href="index.html#list">Add New Tour</a></li>
+                </ul>
             </section>
         </main>
         <!-- tempat footer -->
         <footer>
-
+                <h4>Toummerce (Tour E-Commerce) Company &copy; 2019</h4>
         </footer>
     </body>
 </html>
